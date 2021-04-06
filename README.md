@@ -22,7 +22,7 @@
 
 ```shell
 conda install git
-git clone https://github.com/juoceano/geoquimica_marinha.git
+git clone https://github.com/LaPoGeoMar/IntroPython.git
 ```
 
 Essa etapa deve ser feita dentro do diretório onde você queira salvar esse material e que será seu diretório de trabalho futuramente.
@@ -32,17 +32,17 @@ Mas lembrem ondem salvaram o clone das aulas!!!
 5. O próximo passo é entrar no diretório e criar o ambiente de aula:
 
 ```shell
-cd geoquimica_marinha
-conda env create --file environment.yml
+cd IntroPython
+conda env create --file environment.yml --name PYTHON_LAPOGEO
 ```
 
 6. Depois do download e instalação dos pacotes do ambiente de aula ative o ambiente com:
 
 ```shell
-conda activate AULA_GEOCHEM
+conda activate PYTHON_LAPOGEO
 ```
 
-Observe que acima do prompt de comando irá aparecer **(AULA_GEOCHEM)**, mostrando que o mesmo está ativo.
+Observe que acima do prompt de comando irá aparecer **(PYTHON_LAPOGEO)**, mostrando que o mesmo está ativo.
 
 ![](images/06-miniconda-env.png?raw=true)
 
